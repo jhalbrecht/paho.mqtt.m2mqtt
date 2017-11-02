@@ -248,7 +248,7 @@ namespace uPLibrary.Networking.M2Mqtt
             get { return this.settings; }
         }
 
-#if !(WINDOWS_APP || WINDOWS_PHONE_APP) 
+#if !(WINDOWS_APP || WINDOWS_PHONE_APP || TRUE) // TODO jha added 'TRUE' in Android it caused a conflict. Probably a better way.
         /// <summary>
         /// Constructor
         /// </summary>

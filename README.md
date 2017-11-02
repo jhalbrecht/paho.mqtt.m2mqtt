@@ -1,3 +1,20 @@
+# jhalbrecht Fork
+##### Begun October 1, 2017
+
+## Goal
+To  develop a NuGet package to include in Xamarin.Forms portable librarys for mqtt.
+
+## Background
+
+I recently gave up my Windows phone for an Android ZTE Z971. I have an extensive network of IoT devices at home including sensors and switches. Eventually I'd like to share blog posts on how I accomplished creating the various hardware pieces and include an APP for folks to run similar projects at home.
+
+On the Windows phone and Windows desktop I've developed a UWP app utilizing M2Mqtt. Now that I have an Android phone I've begun to develop in Xamarin in earnest.
+
+In the pahoo.mqtt.m2mqtt there are several projects for .net, .mono and .winrt. I've been able to run the  android version with both .net or .mono. The Android works on either. For Uwp I use the .winrt. Hence the goal; a single reference to satisfy all development platforms, Android, Uwp and ios. Alternately some way to inject the reference at runtime? From what I can see there is currently no viable mqtt client for Xamarin available as a NuGet.
+
+
+
+
 # M2Mqtt
 
 ![](images/M2Mqtt_Short_Logo.png)
