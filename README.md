@@ -12,6 +12,8 @@ On the Windows phone and Windows desktop I've developed a UWP app utilizing M2Mq
 
 In the pahoo.mqtt.m2mqtt there are several projects for .net, .mono and .winrt. I've been able to run the  android version with both .net or .mono. The Android works on either. For Uwp I use the .winrt. Hence the goal; a single reference to satisfy all development platforms, Android, Uwp and ios. Alternately some way to inject the reference at runtime? From what I can see there is currently no viable mqtt client for Xamarin available as a NuGet.
 
+See <a href="https://stackoverflow.com/questions/32660998/m2mqtt-in-portable-class-library" target="_blank">this question of mine</a> on StackOverflow with a great answer by Anders Gustafsson that helped me get this working in Uwp apps back in 2015.
+
 
 
 
